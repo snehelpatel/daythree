@@ -42,12 +42,27 @@ text-decoration: none;}
 
 
 .image-caption {float:right;
+  padding-top:10px;
 }
+
+.image-number::before {content:"#"}
 
 .image-caption a  {text-decoration:none;
   color:black;
-font-weight:bold;}
+font-weight:bold;
+}
 
 .image-footer{clear:none;
+  position:relative;
 
 }
+
+.image-footer::before {content: '';
+width: 3px;
+height: 4px;
+border-style: solid;
+border-width: 5px 5px 0 5px;
+border-color: #d4d4d4 transparent transparent transparent;
+float:right;
+position:absolute;
+left:340px;}
