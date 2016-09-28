@@ -1,0 +1,31 @@
+.octodex {
+  box-sizing: border-box;
+  margin: 0px auto;
+  width: 700px;
+}
+
+.image-footer{ font-size: 12px;}
+
+ul{list-style-type:none;
+}
+
+.octocat{float: left;
+position:relative}
+
+.octocat a img {
+/*   float: left; */
+  border-color:lightgray;
+  border-style:solid;
+  height: 200x;
+  width: 200px;
+  margin:5px;
+
+  }
+
+.authors a img {
+  width: 15px;}
+
+.authors {float:right;}
+
+.image-footer{border-bottom: 2px solid lightgray;
+margin:4px;}
