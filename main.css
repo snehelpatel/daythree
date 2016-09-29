@@ -37,12 +37,14 @@ text-decoration: none;}
 
 .authors {float:right;}
 
-.authors a img {text-decoration: none;}
-
-
 
 .image-caption {float:right;
   padding-top:10px;
+  position:relative;
+}
+.image-number{
+  position:absolute;
+  top: 10px;
 }
 
 .image-number::before {content:"#"}
@@ -65,4 +67,5 @@ border-width: 5px 5px 0 5px;
 border-color: #d4d4d4 transparent transparent transparent;
 float:right;
 position:absolute;
-left:340px;}
+left:340px;
+bottom:10px;}
